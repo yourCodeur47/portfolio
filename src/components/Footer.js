@@ -10,25 +10,25 @@ const Footer = () => {
     "
     >
       <Layout className="py-8 flex items-center justify-between lg:flex-col lg:py-6">
-        <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
+        <span>{new Date().getFullYear()} &copy;</span>
 
         <div className="flex items-center lg:py-2">
-          Built with <span className="text-primary text-2xl px-1 dark:text-primaryDark">&#9825;	</span> by&nbsp;
+          Codé avec <span className="text-primary text-2xl px-1 dark:text-primaryDark">&#9825;	</span> par&nbsp;
           <Link
-            href="https://devdreaming.com"
+            href="https://www.linkedin.com/in/ange-carmel-yoro-23b88985/"
             target="_blank"
             className="underline underline-offset-2"
           >
-            CodeBucks
+            Codeur47
           </Link>
         </div>
 
         <Link
-          href="https://devdreaming.com/about"
+          href="https://www.linkedin.com/in/ange-carmel-yoro-23b88985/"
           target="_blank"
           className="underline underline-offset-2"
         >
-          Say Hello
+          Faites hello
         </Link>
       </Layout>
     </footer>
