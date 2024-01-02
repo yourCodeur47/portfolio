@@ -47,7 +47,11 @@ const Education = () => {
             type="Bachelor of Science in Computer Science"
             time="2016-2020"
             place="NSCC Nova Scotia Community College"
-            info="Compétences : PostgreSQL · ArcGIS Arcade · Thematic Mapping · ArcGIS Pro · Satellite Image Atmospheric Correction · Satellite Image Enhancement · ArcGIS Notebooks · CATALYST Professional · ArcGIS Online · ArcPy · Analytical Skills · Python (Programming Language) · Quantum GIS · Relational Databases · R (Programming Language) · SQL · Problem Solving · Satellite image Classification · Machine Learning · HTML5 / Cascading Style Sheets (CSS) · PyQGIS · Satellite Image Analysis & Interpretation"
+            info="Compétences : PostgreSQL · ArcGIS Arcade · Thematic Mapping · ArcGIS Pro · Satellite Image Atmospheric Correction
+            · Satellite Image Enhancement · ArcGIS Notebooks · CATALYST Professional · ArcGIS Online · ArcPy · Analytical Skills
+            · Python (Programming Language) · Quantum GIS · Relational Databases · R (Programming Language) · SQL
+            · Problem Solving · Satellite image Classification · Machine Learning · HTML5 / Cascading Style Sheets (CSS)
+            · PyQGIS · Satellite Image Analysis & Interpretation"
           />
 
           <Details

@@ -63,17 +63,17 @@ export default function About() {
               <p className="font-medium ">
                 Hello, Je suis <strong>Mamadou Tiefin Coulibaly</strong>, Dévelopeur et Ingénieur SIG | Expertise en Python, R, SQL, Arcade, Machine Learning et Analyses Géospatiales.
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
                 when an unknown printer took a galley of type and scrambled.
               </p>
               <p className="my-4 font-medium">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
                 when an unknown printer took a galley of type and scrambled
               </p>
               <p className="font-medium">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
                 when an unknown printer took a galley of type and scrambled
               </p>
             </div>
