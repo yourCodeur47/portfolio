@@ -45,7 +45,7 @@ const Education = () => {
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
             type="Bachelor of Science in Computer Science"
-            time="2016-2020"
+            time="Sep 2023 - Mars 2024"
             place="NSCC Nova Scotia Community College"
             info="Compétences : PostgreSQL · ArcGIS Arcade · Thematic Mapping · ArcGIS Pro · Satellite Image Atmospheric Correction
             · Satellite Image Enhancement · ArcGIS Notebooks · CATALYST Professional · ArcGIS Online · ArcPy · Analytical Skills
@@ -55,17 +55,19 @@ const Education = () => {
           />
 
           <Details
-            type="Master of Computer Science"
-            time="2020-2022"
-            place="Stanford University"
-            info="Completed a master's project on deep learning, developing a new neural network architecture for natural language understanding."
+            type="Master, Télédétection et Systèmes d'Informations Géographiques"
+            time="2016-2019"
+            place="Centre Universitaire de Recherche et d'Application en TélédétectionCentre Universitaire de Recherche et d'Application en Télédétection"
+            info="Compétences : ENVI & SNAP toolbox · Thematic Mapping · Satellite Image Atmospheric Correction · Analytical Skills ·
+            Quantum GIS · Relational Databases · Problem Solving · Satellite image Classification · Satellite Image Analysis & Interpretation"
           />
 
           <Details
-            type="Online Coursework"
-            time="2016-2020"
-            place="Coursera and edX"
-            info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine Learning Engineering."
+            type="
+                License, GéologieLicense, Géologie
+                "
+            time="2012-2015"
+            place="Université Félix Houphouët-BoignyUniversité Félix Houphouët-Boigny"
           />
         </ul>
       </div>
