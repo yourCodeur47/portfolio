@@ -47,7 +47,7 @@ export default function Home() {
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
-                  href="/dummy.pdf"
+                  href="/cvtiefin.pdf"
                   target={"_blank"}
                   className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
             capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
@@ -60,11 +60,11 @@ export default function Home() {
                 </Link>
 
                 <Link
-                  href="mailto:codebucks27@gmail.com"
+                  href="mailto:ctiefin@gmail.com"
                   className="ml-4 text-lg font-medium capitalize text-dark underline 
                   dark:text-light md:text-base"
                 >
-                  Me Contacter
+                  Envoyer moi un mail
                 </Link>
               </div>
             </div>
