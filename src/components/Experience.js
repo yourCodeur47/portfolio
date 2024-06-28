@@ -32,7 +32,9 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         <span className="capitalize text-dark/75 font-medium dark:text-light/50 xs:text-sm">
           {time} | {address}
         </span>
-        <p className="font-medium w-full md:text-sm"> {work}</p>
+        <p className="font-medium w-full md:text-sm">
+          {work}
+        </p>
       </motion.div>
     </li>
   );
@@ -62,35 +64,33 @@ const Experience = () => {
           />
           <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
             <Details
-              position="Geomaticien - Assistant Solutions Numeriques"
-              company="Mairie de Bouaké"
-              time="nov. 2021 - juil. 2023"
-              address="Mairie de Bouaké · Temps plein"
+              position="Research Assistant"
+              company="Applied Geomatics Research Group (AGRG), NSCC"
+              time="Feb 2024 - May 2024"
+              address="Middleton, NS, Canada"
               work="
-              En m'appuyant sur les technologies numériques, j'ai joué un rôle central dans l'avancement des objectifs du projet en créant des formulaires numériques pour l'acquisition de données et la géolocalisation des infrastructures urbaines.
-              Mon expertise a facilité le suivi efficace des initiatives de reboisement.
-              J'ai contribué à l'élaboration de diverses cartes thématiques, y compris, mais sans s'y limiter, les suivantes.
+              During my tenure, I processed and analyzed time series radar and optical satellite imagery to monitor the evolution and reconstruct the impact of the Tantallon and Shelburne wildfires in Nova Scotia. Additionally, I conducted comprehensive wildfire simulations
+               using Prometheus and 3D Wave models to evaluate their accuracy in replicating the fires under identical weather conditions. My efforts provided critical insights that enhanced the accuracy and reliability of the 3D Wave model.
               "
             />
             <Details
-              position="Télépilote Professionel"
-              company="African Techno Lab"
-              time="janv. 2021 - mars 2021"
-              address="Abidjan, Côte d'Ivoire."
-              work="Dans ce rôle, j'ai dirigé plusieurs missions de terrain impliquant l'utilisation de divers drones,
-              notamment le Mavic 2 Pro et le Matrice 210 RTK, afin de réaliser des études environnementales et des inspections techniques complètes.
-              Cette initiative a été entreprise pour le compte de la Compagnie ivoirienne d'électricité (CIE), en se concentrant principalement sur l'évaluation et la maintenance des pylônes électriques.
-              Mes responsabilités consistaient non seulement à piloter les drones, mais aussi à assurer la précision et l'efficacité du processus de collecte des données"
+              position="Geographic Information Systems and Digital Solutions Assistant"
+              company="The City Hall of Bouake"
+              time="nov. 2021 - juil. 2023"
+              address="Bouake, Côte d'Ivoire"
+              work="
+              While at this position, I significantly improved the accuracy of urban planning decisions by 20%, leading to more effective sustainability initiatives through the
+              development and maintenance of a comprehensive and up-to-date geospatial database. I spearheaded the integration of GIS data into project workflows and databases by developing
+              GIS applications that automated processes, reduced processing time by 30%, and enhanced data accuracy and integrity. Furthermore, I reduced decision-making time
+              "
             />
             <Details
-              position="Géomaticien"
-              company="nstitut National de Statistique"
+              position="Geomatics Engineer"
+              company="Institut National de la Statistique"
               time="nov. 2019 - janv. 2020"
               address="Abidjan, Côte d'Ivoire"
-              work="J'étais responsable de l'élaboration de cartes détaillées des zones de dénombrement pour le recensement
-              de la population ivoirienne de 2019. Cela impliquait la délimitation stratégique et la visualisation des zones
-              pour les activités de recensement, garantissant une collecte de données précise et efficace dans diverses régions.
-              Mon rôle a été essentiel pour faciliter une approche organisée et systématique du processus de recensement national."
+              work="I developed detailed enumeration area maps for the 2020 Ivorian Population Census, enabling strategic demarcation and efficient data collection, which facilitated a systematic and precise national census process, achieving an average coverage rate of 90% and ensuring accurate demographic insights. Additionally,
+               I assisted in the analysis and dissemination of geographic data to various provincial departments, ensuring the accuracy and relevancy of the information."
             />
           </ul>
         </div>

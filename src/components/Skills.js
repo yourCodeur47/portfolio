@@ -26,7 +26,7 @@ const Skills = () => {
   return (
 <>
       <h2 className="font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32">
-        Competences
+        Skills
       </h2> 
     <div
       ref={ref}
@@ -46,15 +46,24 @@ const Skills = () => {
         <Skill name="R" x="-20vw" y="2vw" />
 
           <Skill name="SQL" x="-5vw" y="-10vw" />
-          <Skill name="Arcade" x="20vw" y="6vw" />
-          <Skill name="Machine Learning" x="0vw" y="12vw" />
-          <Skill name="Analyses Géospatiales" x="-20vw" y="-15vw" />
-          <Skill name="SQL" x="15vw" y="-12vw" />
+          <Skill name="HTML" x="20vw" y="6vw" />
+          <Skill name="CSS" x="0vw" y="12vw" />
+          <Skill name="Geospatial Data Analysis" x="-20vw" y="-15vw" />
+          <Skill name="JavaScript" x="15vw" y="-12vw" />
           <Skill name="SQL" x="-35vw" y="-5vw" />
-          <Skill name="SQL" x="32vw" y="-5vw" />
-          <Skill name="SQL" x="0vw" y="-20vw" />
-          <Skill name="SQL" x="-25vw" y="18vw" />
-          <Skill name="SQL" x="28vw" y="18vw" />
+          <Skill name="Python" x="32vw" y="-5vw" />
+          <Skill name="PL/SQL" x="0vw" y="-20vw" />
+          <Skill name="ArcGIS Arcade" x="-25vw" y="18vw" />
+          <Skill name="ArcGIS Pro" x="23vw" y="13vw" />
+          <Skill name="ArcGIS Online" x="30vw" y="09vw" />
+          <Skill name="ArcGIS Instant Apps" x="20vw" y="20vw" />
+          <Skill name="ArcGIS StoryMaps" x="10vw" y="30vw" />
+          <Skill name="ArcGIS Dashboards" x="-7vw" y="18vw" />
+          <Skill name="ArcGIS Experience Builder" x="-20vw" y="26vw" />
+          <Skill name="ArcGIS Survey123" x="-20vw" y="-30vw" />
+          <Skill name="ArcGIS QuickCapture" x="-10vw" y="30vw" />
+          <Skill name="PostgreSQL/PostGIS" x="-10vw" y="-25vw" />
+          <Skill name="Oracle database/Oracle Spatial" x="20vw" y="-25vw" />
     </div></>
   );
 };

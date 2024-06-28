@@ -39,11 +39,18 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Lorem Ipsum is simply dummy text of the printing and."
+                text="Programming the World, One Map at a Time."
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500
+                  Bilingual GIS professional with a Master’s degree in Remote Sensing and GIS,
+                  proficient in spatial data management, GIS application development,
+                  and advanced data analysis. Highly skilled in Esri GIS technologies,
+                  with a proven track record of developing and maintaining geospatial applications.
+                  Adept at optimizing database performance, ensuring data integrity,
+                  and enhancing decision-making processes through high-quality cartographic products and data visualizations.
+                  Demonstrated ability to automate processes using Python, manage and support GIS systems,
+                  and conduct comprehensive spatial analyses.
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link

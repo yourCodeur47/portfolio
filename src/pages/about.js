@@ -1,7 +1,6 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profile from "../../public/images/profile/developer-pic-2.jpg";
 import profileTiefin from "../../public/images/profile/profiletien.jpeg";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import { useEffect, useRef } from "react";
@@ -10,6 +9,7 @@ import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import AnimatedText from "@/components/AnimatedText";
 import TransitionEffect from "@/components/TransitionEffect";
+import Certificates from "@/components/Certificates";
 
 function AnimatedNumberFramerMotion({ value }) {
   const ref = useRef(null);
@@ -50,31 +50,27 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Lorem Ipsum is simply !"
-            className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
+            text="Meet the Geospatial Enthusiast !"
+            className="mb-16 !text-6xl !leading-tight lg:!text-5xl sm:!text-4xl xs:!text-2xl sm:mb-6"
           />
 
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 
             md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-                BIOGRAPHIE
+                Biography
               </h2>
               <p className="font-medium ">
-                Hello, Je suis <strong>Mamadou Tiefin Coulibaly</strong>, Dévelopeur et Ingénieur SIG | Expertise en Python, R, SQL, Arcade, Machine Learning et Analyses Géospatiales.
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled.
+                I&apos;m <strong>Mamadou Tiefin Coulibaly</strong>, a dedicated GIS professional with a Master’s degree in Remote Sensing and
+                GIS and a Bachelor’s degree in Earth Sciences. I also hold a Geographic Information Systems Graduate Certificate from the Centre of Geographic Sciences (COGS).
               </p>
               <p className="my-4 font-medium">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled
+                My skills include advanced proficiency in Esri applications and mobile GIS solutions. I have a strong background in Python, JavaScript (HTML/CSS), SQL, PL/SQL, and ArcGIS Arcade, along with robust database management competencies with PostgreSQL/PostGIS and Oracle Spatial.
+                Throughout my career, I&apos;ve integrated GIS data into workflows, reduced processing time, enhanced data accuracy, and conducted comprehensive spatial analyses
               </p>
               <p className="font-medium">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled
+                I&apos;m fluent in English and French, with strong communication, organizational, and problem-solving abilities. My work has been recognized with multiple Esri e-Training certificates and as an Esri Canada Centres of Excellence Student Associate.
+                I&apos;m passionate about leveraging geospatial technologies to optimize database performance and create high-quality cartographic products and data visualizations.
               </p>
             </div>
             <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
@@ -98,9 +94,10 @@ export default function About() {
             </div>
           </div>
 
+          <Education />
           <Skills />
           <Experience />
-          <Education />
+          <Certificates />
         </Layout>
       </main>
     </>
