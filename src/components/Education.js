@@ -44,30 +44,22 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
-            type="Bachelor of Science in Computer Science"
-            time="Sep 2023 - Mars 2024"
-            place="NSCC Nova Scotia Community College"
-            info="Compétences : PostgreSQL · ArcGIS Arcade · Thematic Mapping · ArcGIS Pro · Satellite Image Atmospheric Correction
-            · Satellite Image Enhancement · ArcGIS Notebooks · CATALYST Professional · ArcGIS Online · ArcPy · Analytical Skills
-            · Python (Programming Language) · Quantum GIS · Relational Databases · R (Programming Language) · SQL
-            · Problem Solving · Satellite image Classification · Machine Learning · HTML5 / Cascading Style Sheets (CSS)
-            · PyQGIS · Satellite Image Analysis & Interpretation"
+            type="Geographic Information Systems Graduate Certificate"
+            time="June 2024"
+            place="Centre of Geographic Sciences (COGS), NSCC, Lawrencetown, NS"
+            info=""
           />
-
           <Details
-            type="Master, Télédétection et Systèmes d'Informations Géographiques"
-            time="2016-2019"
-            place="Centre Universitaire de Recherche et d'Application en TélédétectionCentre Universitaire de Recherche et d'Application en Télédétection"
-            info="Compétences : ENVI & SNAP toolbox · Thematic Mapping · Satellite Image Atmospheric Correction · Analytical Skills ·
-            Quantum GIS · Relational Databases · Problem Solving · Satellite image Classification · Satellite Image Analysis & Interpretation"
+            type="Master of Remote Sensing and Geographic Information Systems"
+            time="July 2019"
+            place="Centre Universitaire de Recherche et d’Application en Télédétection, Abidjan, Côte d'Ivoire"
+            info=""
           />
-
           <Details
-            type="
-                License, GéologieLicense, Géologie
-                "
-            time="2012-2015"
-            place="Université Félix Houphouët-BoignyUniversité Félix Houphouët-Boigny"
+            type="Bachelor of Science in Earth Sciences"
+            time="October 2015"
+            place="Université Felix Houphouet Boigny, Abidjan, Côte d'Ivoire"
+            info=""
           />
         </ul>
       </div>
