@@ -17,7 +17,7 @@ export const HireMe = () => {
                       dark:hover:text-light dark:hover:border-light dark:shadow-light/25 md:w-12 md:h-12 md:text-[10px]
 "
         >
-          Me Recruter
+          Hire me
         </Link>
       </div>
     </div>

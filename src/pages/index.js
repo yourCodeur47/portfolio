@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import profilePic from "../../public/images/profile/developer-pic-1.png";
 import TransitionEffect from "@/components/TransitionEffect";
+import {HireMe} from "@/components/HireMe";
 
 
 export default function Home() {
