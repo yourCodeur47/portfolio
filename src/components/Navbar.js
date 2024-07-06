@@ -99,7 +99,7 @@ const Navbar = () => {
         <motion.a
           target={"_blank"}
           className="w-6 mr-3"
-          href="#"
+          href="https://x.com/CTiefin"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
           aria-label="Consultez mon profil Twitter"
@@ -109,7 +109,7 @@ const Navbar = () => {
         <motion.a
           target={"_blank"}
           className="w-6 mx-3"
-          href="#"
+          href="https://github.com/Tiefin-Coulibaly"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
           aria-label="Consultez mon profil Github"
@@ -163,7 +163,7 @@ const Navbar = () => {
         <motion.a
           target={"_blank"}
           className="w-6 m-1 mr-3 sm:mx-1"
-          href="#"
+          href="https://x.com/CTiefin"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
           aria-label="Consultez mon profil Twitter"
@@ -173,7 +173,7 @@ const Navbar = () => {
         <motion.a
           target={"_blank"}
           className="w-6 m-1 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
-          href="#"
+          href="https://github.com/Tiefin-Coulibaly"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
           aria-label="Consultez mon profil Github"

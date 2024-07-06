@@ -6,7 +6,6 @@ import Image from "next/image";
 import Link from "next/link";
 import profilePic from "../../public/images/profile/developer-pic-1.png";
 import TransitionEffect from "@/components/TransitionEffect";
-import {HireMe} from "@/components/HireMe";
 
 
 export default function Home() {
@@ -15,12 +14,6 @@ export default function Home() {
     <>
       <Head>
         <title>Portfolio - Mamadou Tiefin Coulibaly</title>
-        <meta
-          name="description"
-          content="Explore CodeBucks's Next.js developer portfolio and 
-        discover the latest webapp projects and software engineering articles. 
-        Showcase your skills as a full-stack developer and software engineer."
-        />
       </Head>
 
       <TransitionEffect />
@@ -45,7 +38,7 @@ export default function Home() {
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
                   Bilingual GIS professional with a Master’s degree in Remote Sensing and GIS,
-                  proficient in spatial data management, GIS application development,
+                  proficient in GIS application development, spatial data management,
                   and advanced data analysis. Highly skilled in Esri GIS technologies,
                   with a proven track record of developing and maintaining geospatial applications.
                   Adept at optimizing database performance, ensuring data integrity,
@@ -55,7 +48,7 @@ export default function Home() {
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
-                  href="/cvtiefin.pdf"
+                  href="/resumetiefin.pdf"
                   target={"_blank"}
                   className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
             capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 

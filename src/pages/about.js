@@ -61,16 +61,15 @@ export default function About() {
                 Biography
               </h2>
               <p className="font-medium ">
-                I&apos;m <strong>Mamadou Tiefin Coulibaly</strong>, a dedicated GIS professional with a Master’s degree in Remote Sensing and
-                GIS and a Bachelor’s degree in Earth Sciences. I also hold a Geographic Information Systems Graduate Certificate from the Centre of Geographic Sciences (COGS).
+                I am <strong>Mamadou Tiefin Coulibaly</strong>, a dedicated GIS professional with a Master’s degree in Remote Sensing and
+                GIS and a Bachelor’s degree in Earth Sciences. Additionally, I hold a Geographic Information Systems Graduate Certificate from the Centre of Geographic Sciences (COGS).
               </p>
               <p className="my-4 font-medium">
                 My skills include advanced proficiency in Esri applications and mobile GIS solutions. I have a strong background in Python, JavaScript (HTML/CSS), SQL, PL/SQL, and ArcGIS Arcade, along with robust database management competencies with PostgreSQL/PostGIS and Oracle Spatial.
                 Throughout my career, I&apos;ve integrated GIS data into workflows, reduced processing time, enhanced data accuracy, and conducted comprehensive spatial analyses
               </p>
               <p className="font-medium">
-                I&apos;m fluent in English and French, with strong communication, organizational, and problem-solving abilities. My work has been recognized with multiple Esri e-Training certificates and as an Esri Canada Centres of Excellence Student Associate.
-                I&apos;m passionate about leveraging geospatial technologies to optimize database performance and create high-quality cartographic products and data visualizations.
+                I am fluent in English and French, with strong communication, organizational, and problem-solving abilities. As a student, I was awarded the Esri Canada Centres of Excellence Student Associate prize. I am passionate about leveraging geospatial technologies to automate processes, optimize database performance, and create high-quality cartographic products and data visualizations.
               </p>
             </div>
             <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
